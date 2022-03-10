@@ -1,5 +1,35 @@
 .root{
-    background-color: grey;
+    background-color:#2A2C2F;
     width: 100%;
+}
 
+.header{
+    display: flex;
+    justify-content: space-between;
+    min-width: 1184px;
+    max-height: 52px;
+    padding: 28px 48px 0px;
+    border: 1px solid red ;
+
+}
+
+.header__links{
+border: 1px solid red;
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+column-gap:18px;
+
+}
+
+.header__lang-link{
+color: #FFFFFF;
+text-decoration: none;
+font-size: 26px;
+margin-bottom: 6px;
+}
+
+.header__lang-link:hover{
+    text-decoration: underline;
+    color: #FFFFFF;
 }
