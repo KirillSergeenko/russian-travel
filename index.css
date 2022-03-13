@@ -101,80 +101,75 @@ margin-top: 18px;
     .header__logo{
         max-height: 42px;
         max-width: 142px;
-
+    }
 
 }
 
 
 
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    margin:0px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
 .lead{
+    max-width: 984px;
+    max-height: 1005px;
+    height: 100%;
+    width: 100%;
    display: flex;
    flex-direction: column;
    justify-content: center;
-   padding: 0 148px;
-  
+   padding: 56px 148px 0px 148px; /*padding: 65px выверено по макету*/
+  border: 1px solid red;
     color: #FFFFFF;
 }
 
 .lead__title{
     max-height: 200px;
-max-width: 700px;
-    
-    margin: 56px auto 0;
+    max-width: 720px;
+    margin: auto;
+
     font-size: 96px;
-    font-weight: bolder;
+    font-weight: 900;
     line-height: 1.04;
     text-align: center;
+
 }
 
 .lead__subtitle{
+    max-height: 72px;
+    max-width: 640px;
+    margin: 32px auto 0px;
+
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
     text-align: center;
-    margin: 32px auto 0;
-  
+    font-style: normal;
 
 }
 
-.lead__products{
+/* .lead__products{
     max-width: 984px;
     width: 100%;
 display: flex;
 flex-direction: column;
 margin:0 auto;
+padding: 0;
 align-items: flex-start;
 list-style-type:none;
-
-}
+} */
 
 
 .lead__image{
-    margin-top: 64px auto 8px;
+    margin: 64px auto 0px;
     max-width: 984px;
     width: 100%;
-    
 
 }
 
@@ -183,5 +178,7 @@ list-style-type:none;
     font-size: 10px;  
     line-height: 1.4;
     letter-spacing: 1.5px;
-   
-} */
+    margin-top: 8px;
+    margin-bottom: 0px;
+    text-transform:uppercase;
+} 
