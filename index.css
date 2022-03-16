@@ -237,16 +237,18 @@ margin-top: 18px;
 
 @media all and (min-width:1024px) and (max-width:1279px) {
     .header{ 
-    min-width: calc(928px + 96px);
+      max-width: 1024px;
+    /* min-width: calc(928px + 96px); */
     width: 100%;
     }
 }
 
 @media all and (min-width:768px) and (max-width:1023px){
     .header{ 
-        max-width: (720px + 96px);
+      max-width: 768px;
+        /* max-width: (720px + 96px); */
         width: 100%;
-        padding: 28px 48px 0px 48px;
+        padding: 28px 24px 0px 24px;
     }
 
 
@@ -254,7 +256,8 @@ margin-top: 18px;
 
 @media all and (min-width: 320px) and (max-width:767px){
     .header { 
-        max-width: (288px + 32px);
+      min-width: 320px;
+        /* max-width: (288px + 32px); */
         min-height: 42px;
         width: 100%;
         padding: 16px 16px 0px 16px;
@@ -304,6 +307,7 @@ margin-top: 18px;
 }
 
 .lead__title{
+   
     max-height: 200px;
     max-width: 720px;
     margin: auto;
@@ -328,16 +332,6 @@ margin-top: 18px;
 
 }
 
-/* .lead__products{
-    max-width: 984px;
-    width: 100%;
-display: flex;
-flex-direction: column;
-margin:0 auto;
-padding: 0;
-align-items: flex-start;
-list-style-type:none;
-} */
 
 
 .lead__image{
@@ -360,7 +354,7 @@ list-style-type:none;
 @media all and (min-width:1024px) and (max-width:1279px) {
     .lead{
     max-width: 928px;
-    max-height: 962px;
+    /* max-height: 962px; */
     padding: 48px 48px 0px 48px;
     }
 
@@ -368,4 +362,56 @@ list-style-type:none;
         margin: 56px auto 0px;
         max-width: 984px;
     }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+  .lead{
+    max-width: 768px;
+    padding: 48px 0px 0px 0px;
+  }
+
+  .lead__image{
+    margin: 56px auto 0px;
+    max-width: 768px;
+}
+
+.lead__caption{
+  padding-left: 24px;
+}
+}
+
+@media screen and (min-width:320px) and (max-width:767px){
+  .lead{
+    min-width: 320px;
+    padding: 48px 0px 0px 0px;
+  }
+  .lead__title{
+    max-width: 288px;
+    margin: auto;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.1;
+    text-align: center;
+  }
+
+  .lead__subtitle{
+   
+    max-width: 288px;
+    margin: 16px auto 0px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align:center;
+  }
+
+  .lead__image{
+    margin: 40px auto 0px;
+    min-width: 320px;
+  }
+  
+.lead__caption{
+  padding-left: 16px;
+}
+
 }
