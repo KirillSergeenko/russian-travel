@@ -440,10 +440,12 @@ margin-top: 18px;
 }
 
 .intro__text{
+font-weight: 400;
 max-width: 690px;
 font-size: 16px;
 line-height: 1.63;
 margin: 40px 0px 0px 0px;
+text-align: left;
 }
 
 .intro__list{
@@ -462,17 +464,28 @@ margin: 40px 0px 0px 0px;
   padding-left: 48px;
   width: 100%;
 }
+.intro__text{
+  min-width: 690px;
+  text-align: left;
+
+}
+
 }
 
 @media screen and (min-width:768px) and (max-width:1023px){
   .intro{
     max-width: 768px;
     padding-left: 24px;
+    padding-right: 24px;
     width: 100%;
   }
 
   .intro__title{
       margin-top: 88px;
+  }
+
+  .intro__text{
+    max-width: 720px;
   }
 
 }
@@ -485,7 +498,7 @@ margin: 40px 0px 0px 0px;
   }
 
   .intro__title{
-
+      
     font-weight: 900;
       font-size: 32px;
       line-height: 1.09;
