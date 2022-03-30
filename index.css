@@ -440,6 +440,7 @@ margin-top: 18px;
 }
 
 .intro__text{
+  
 font-weight: 400;
 max-width: 690px;
 font-size: 16px;
@@ -521,10 +522,6 @@ text-align: left;
     .intro__list{
       padding-left: 0px;
       margin: 34px 0px 0px 0px;
-      list-style: none;
-      font-size: 12px;
-      line-height: 1.5;
-      font-weight: 400;
       padding-left: 16px;
       padding-right: 16px;
     }
