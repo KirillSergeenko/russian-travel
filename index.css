@@ -526,7 +526,8 @@ text-align: left;
       padding-right: 16px;
     }
 
+}
 
-
-
+.photo-grid{
+  display: grid;
 }
