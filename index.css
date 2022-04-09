@@ -644,6 +644,9 @@ text-align: left;
   line-height: 1.6;
   font-weight: 400;
 }
+.place__paragraph:last-child{
+  padding-bottom: 0px;
+}
 
 
 
@@ -673,6 +676,7 @@ text-align: left;
    padding-bottom: 12px;
 }
 
+
 .website__link{
   color:#FFFFFF;
   font-size: 18px;
@@ -691,4 +695,129 @@ text-align: left;
 .place__website{
   list-style: none;
   padding-left: 0px;
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+  .place{
+    gap: 48px 32px;
+  }
+  .place__image{
+    max-width: 440px;
+    
+  }
+  .places{
+    max-width: 928px;
+  }
+  .place__title{
+    max-width: 440px;
+  }
+  .place_text{
+    max-width: 456px;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+  .place{
+    gap: 48px 28px;
+    margin-top: 73px;
+  }
+
+  .place:first-child{
+    margin-top: 88px;
+  }
+  .place:last-child{
+    margin-top: 75px;
+  }
+
+
+  .place__image{
+    max-width: 340px;
+  }
+  .places{
+    max-width: 720px;
+  }
+  .place__title{
+    max-width: 340px;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 1.09;
+  }
+  .place__title-cut{
+    max-width: 310px;
+    margin: 0;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 1.09;
+  }
+ 
+  .place_text{
+    max-width: 352px;
+  }
+  .place__paragraph{
+    padding-bottom: 25px;
+    font-size: 16px;
+    line-height: 1.63;
+    font-weight: 400;
+  }
+ 
+}
+
+@media screen and (min-width:320px) and (max-width:767px){
+
+.places{
+
+}
+
+.place{
+  display: grid;
+  gap:32px 0px;
+  grid-template-columns: repeat(2,minmax(min-content, max-content));
+  grid-template-areas:
+  "title"
+  "url"
+  "img"
+  "text";
+  margin-top: 50px;
+
+
+  
+}
+.place:first-child{
+  margin-top: 64px;
+}
+
+.place__image{
+  max-width: 320px;
+}
+
+.place__title-cut{
+  max-width: 288px;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.09;
+  margin: 0px;
+  margin-left: 16px;
+}
+.place__title{
+  max-width: 288px;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.09;
+  margin-left: 16px;
+ 
+}
+
+
+.place__website{
+  margin-left:16px;
+}
+
+.place__paragraph{
+  padding-bottom: 25px;
+  max-width: 288px;
+  font-size: 16px;
+  line-height: 1.63;
+  font-weight: 400;
+  margin-left: 16px;
+}
 }
