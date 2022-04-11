@@ -857,6 +857,12 @@ justify-content: center;
 color: #FFFFFF;
 }
 
+
+
+
+
+
+
 .cover::before{
   content: "";
   background-color: rgba(42,44,47, 0.4);
@@ -866,6 +872,19 @@ color: #FFFFFF;
   bottom: 0;
   left: 0;
 }
+
+.cover:hover::before{
+  background-color: rgba(42,44,47);
+  opacity: 0.8;
+}
+
+
+
+
+
+
+
+
 
 
 .cover__title{
@@ -888,3 +907,4 @@ margin: 0px;
 margin-top: 32px;
 text-align: center;
 }
+
