@@ -888,6 +888,12 @@ font-weight: 900;
 position: relative;
 margin: 0px;
 text-align: center;
+color: white;
+text-decoration: none;
+}
+
+.cover__title:visited{
+  color: white;
 }
 
 .cover__subtitle{
