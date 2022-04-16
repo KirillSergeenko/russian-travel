@@ -1,0 +1,31 @@
+.header__lang-link{
+    color: #FFFFFF;
+    max-width: 30px;
+    max-height: 28px;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 1.16;
+    font-weight: 400;
+    text-align: right;
+    margin-bottom: 5px; /*6px to Maket, 5px - fact*/
+    margin-top: 18px;
+    }
+    
+    .header__lang-link:hover{
+        text-decoration: underline;
+        color: #FFFFFF;
+    }
+
+    @media all and (min-width: 320px) and (max-width:767px){
+
+        .header__lang-link {
+        min-width: 22px;
+        min-height: 20px;
+        font-size: 18px;
+        line-height: 1.11;
+        font-weight: 400;
+        text-align: right;
+        margin-bottom: 8px;
+        margin-top: 14px;
+        }
+    }
