@@ -4,7 +4,7 @@
     grid-template-columns: repeat(2,minmax(min-content, max-content));
     grid-template-areas:
     "title url"
-    "img text" ;
+    "img text";
     margin-top: 80px;
   }
   .place:first-child{
