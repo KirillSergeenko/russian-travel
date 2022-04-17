@@ -2,7 +2,7 @@
     max-width: 1184px;
     width: 100%;
     min-height: 740px;
-    background-image:url(../../Images/__background.svg);
+    background-image:url(../../Images/__background.png);
     position: relative;
     background-size: cover; 
     display: flex;
