@@ -6,6 +6,7 @@
     "title url"
     "img text";
     margin-top: 80px;
+    font-family: 'Inter-Regular';
   }
   .place:first-child{
     margin-top: 92px;
