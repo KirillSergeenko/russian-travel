@@ -1,26 +1,25 @@
 .cover__title{
-    max-width: 560px;
-    font-size: 72px;
-    line-height: 1.06;
-    font-weight: 900;
-    position: relative;
-    margin: 0px;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    font-family: 'Inter-Black';
+  max-width: 560px;
+  font-size: 72px;
+  line-height: 1.06;
+  font-weight: 900;
+  position: relative;
+  margin: 0px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-family: 'Inter-Black';
+ }
     
-    }
-    
-    .cover__title:visited{
-      color: white;
-    }
+.cover__title:visited{
+  color: white;
+}
 
-    @media screen and (min-width: 320px) and (max-width: 767px){
+@media screen and (min-width: 320px) and (max-width: 767px){
 .cover__title{
-max-width: 288px;
-font-size: 32px;
-line-height: 1.09;
-font-weight: 900;
+  max-width: 288px;
+  font-size: 32px;
+  line-height: 1.09;
+  font-weight: 900;
      }
 }
