@@ -14,7 +14,7 @@
   .intro{
     max-width: 1024px;
     padding-left: 48px;
-    width: 100%;
+
   }
 }
 
@@ -23,7 +23,7 @@
     max-width: 768px;
     padding-left: 24px;
     padding-right: 24px;
-    width: 100%;
+
     }
 }
 
@@ -31,6 +31,6 @@
   .intro{
     max-width: 320px;
     padding:0;
-    width: 100%;
+
     }
 }  

@@ -6,7 +6,6 @@
     list-style: none;
     list-style-type: none;
     grid-template-columns: repeat(4, minmax(284px, 1fr));
-    /* grid-template-rows: repeat(auto-fit, max-content); */
     /* overflow: hidden; */
     margin:0px;
     padding: 92px 0px 0px 0px;
@@ -20,19 +19,15 @@
     gap: 14px 14px;
     list-style: none;
     grid-template-columns: repeat(3, 300px);
-    /* grid-template-rows: repeat(auto-fit, max-content); */
-    overflow: hidden;
     }
 }
 
 @media screen and (min-width:768px) and (max-width:1023px) {
   .photo-grid{
     max-width: 720px;
-    gap: 16px 16px;
+    /* gap: 16px 16px; */
     list-style: none;
     grid-template-columns: repeat(2, 352px);
-    /* grid-template-rows: repeat(auto-fit, max-content); */
-    overflow: hidden;
     padding: 88px 0px 0px 0px;
     }
 }
@@ -43,8 +38,6 @@
     gap: 12px 12px;
     list-style: none;
     grid-template-columns: 288px;
-    /* grid-template-rows: repeat(auto-fit, max-content); */
-    overflow: hidden;
     padding: 64px 0px 0px 0px;
     }
 }  
