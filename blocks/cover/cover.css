@@ -10,14 +10,14 @@
   align-items: center;
   justify-content: center;
   color: #FFFFFF;
-  font-family:  'Inter';
+  font-family:  'Inter','Arial', sans-serif;
     }
     
     
     
 .cover::before{
   content: "";
-  background-color: rgba(42,44,47, 0.4);
+  background-color: rgba(42,44,47, 0.3);
   position: absolute;
   width: 100%;
   top: 0;
