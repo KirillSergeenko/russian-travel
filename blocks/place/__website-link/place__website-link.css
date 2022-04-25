@@ -2,5 +2,9 @@
     color:#FFFFFF;
     font-size: 18px;
     line-height:1.22;
-    
   }
+
+.place__website-link:hover{
+  color:#FFFFFF;
+  opacity: 0.8;
+}
