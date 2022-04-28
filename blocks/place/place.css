@@ -6,7 +6,7 @@
   "title url"
   "img text";
   margin-top: 80px;
-  font-family:  'Inter';
+  font-family:  'Inter','Arial', sans-serif;
   }
 
 .place:first-child{
